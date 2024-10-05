@@ -32,7 +32,7 @@ onMounted(() => {
      <div class="video__wrapper">
       <!-- <VideoPlayer :video-url="video2"/> -->
       <vue-plyr ref="player" :options="{ controls: ['play', 'progress', 'volume', 'fullscreen'] }">
-        <video ref="videoPlayer" class="plyr__video-embed" playsinline controls></video>
+        <video ref="videoPlayer" playsinline controls></video>
       </vue-plyr>
      </div>
    </div>
@@ -51,9 +51,5 @@ onMounted(() => {
     width: 100%;
     height: 100%;
   }
-}
-
-.plyr__video-embed {
-  padding-bottom: 0px !important;
 }
 </style>
