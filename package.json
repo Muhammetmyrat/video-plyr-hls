@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "hls.js": "^1.5.4",
-    "pinia": "^2.1.7",
+    "pinia": "^2.2.5",
     "vue": "^3.4.29",
     "vue-plyr": "^7.0.0",
     "vue-router": "^4.3.3"
